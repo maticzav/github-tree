@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils: loadTreeFromPath 1`] = `
+Object {
+  "README.md": Object {
+    "content": "# Template Fixture
+",
+    "encoding": "utf-8",
+  },
+  "src/folder/nested.ts": Object {
+    "content": "export function nested() {
+  return true
+}
+",
+    "encoding": "utf-8",
+  },
+  "src/index.ts": Object {
+    "content": "function helloWorld() {
+  return 'hi!'
+}
+
+helloWorld()
+",
+    "encoding": "utf-8",
+  },
+  "tsconfig.json": Object {
+    "content": "{
+  \\"compilerOptions\\": {
+    \\"target\\": \\"es2017\\",
+    \\"module\\": \\"commonjs\\",
+    \\"lib\\": [\\"dom\\", \\"es2017\\", \\"es2019\\"],
+    \\"rootDir\\": \\"src\\",
+    \\"outDir\\": \\"dist\\"
+  }
+}
+",
+    "encoding": "utf-8",
+  },
+}
+`;

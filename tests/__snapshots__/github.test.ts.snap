@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`github: commit 1`] = `
+Object {
+  "0": "# Template Fixture
+",
+  "1": "{
+  \\"compilerOptions\\": {
+    \\"target\\": \\"es2017\\",
+    \\"module\\": \\"commonjs\\",
+    \\"lib\\": [\\"dom\\", \\"es2017\\", \\"es2019\\"],
+    \\"rootDir\\": \\"src\\",
+    \\"outDir\\": \\"dist\\"
+  }
+}
+",
+  "2": "",
+  "3": "function helloWorld() {
+  return 'hi!'
+}
+
+helloWorld()
+",
+  "4": "export function nested() {
+  return true
+}
+",
+}
+`;
+
+exports[`github: commit 2`] = `
+Object {
+  "0": Array [
+    Object {
+      "mode": "100644",
+      "path": "ignored",
+      "sha": 2,
+      "type": "blob",
+    },
+  ],
+  "1": Array [
+    Object {
+      "mode": "100644",
+      "path": "nested.ts",
+      "sha": 4,
+      "type": "blob",
+    },
+  ],
+  "2": Array [
+    Object {
+      "mode": "040000",
+      "path": "folder",
+      "sha": 1,
+      "type": "tree",
+    },
+    Object {
+      "mode": "100644",
+      "path": "index.ts",
+      "sha": 3,
+      "type": "blob",
+    },
+  ],
+  "3": Array [
+    Object {
+      "mode": "040000",
+      "path": "ignore",
+      "sha": 0,
+      "type": "tree",
+    },
+    Object {
+      "mode": "040000",
+      "path": "src",
+      "sha": 2,
+      "type": "tree",
+    },
+    Object {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": 0,
+      "type": "blob",
+    },
+    Object {
+      "mode": "100644",
+      "path": "tsconfig.json",
+      "sha": 1,
+      "type": "blob",
+    },
+  ],
+}
+`;
