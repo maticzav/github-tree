@@ -1,6 +1,6 @@
 # 🐙 github-tree
 
-![](https://github.com/maticzav/github-tree/workflows/.github/workflows/test.yml/badge.svg)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fmaticzav%2Fgithub-tree%2Fbadge&style=flat)](https://actions-badge.atrox.dev/maticzav/github-tree/goto)
 [![npm version](https://badge.fury.io/js/github-tree.svg)](https://badge.fury.io/js/github-tree)
 
 > Github API commits made easy peasy.
