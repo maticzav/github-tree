@@ -11,6 +11,8 @@ This library helps you create commits to Github using a simple API that abstract
 
 <!-- bannerbot -->
 
+<!-- bannerbot -->
+
 ## Installation
 
 ```bash
