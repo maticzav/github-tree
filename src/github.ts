@@ -1,16 +1,31 @@
 import { Octokit } from '@octokit/rest'
 
 import { Tree, File, getTreeFiles, getTreeSubTrees } from './tree'
-import { Dict, mapEntriesAsync, not } from './utils'
+import { mapEntriesAsync } from './utils'
 
 /**
  * Input variables for commit method.
  */
 export type CommitInput = {
+  /**
+   * Name of the owner of the repository.
+   */
   owner: string
+  /**
+   * Name of the repository.
+   */
   repo: string
+  /**
+   * Message of a commit.
+   */
   message: string
+  /**
+   * Make sure that your ref follows heads/<ref> format.
+   */
   ref: string
+  /**
+   * Your files.
+   */
   tree: Tree
 }
 

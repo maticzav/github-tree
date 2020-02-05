@@ -1,6 +1,6 @@
 import * as path from 'path'
 
-import { Dict, not } from './utils'
+import { Dict, not, mapEntriesAsync, mapKeys } from './utils'
 
 /**
  * Represents a Github file/folder structure.
@@ -9,7 +9,7 @@ export type Tree = { [path: string]: File }
 
 export type File = { content: string; encoding: 'utf-8' | 'base64' }
 
-/* Accessors, Getters */
+/* Accessors, Getters, Helpers */
 
 /**
  * Returns the content of a file.
@@ -25,6 +25,34 @@ export function content(file: File): string {
  */
 export function encoding(file: File): File['encoding'] {
   return file.encoding
+}
+
+/**
+ * Lets you map files asynchornously.
+ *
+ * @param tree
+ * @param fn
+ */
+export async function mapFiles(
+  tree: Tree,
+  fn: (file: File, path: string) => Promise<File>,
+): Promise<Tree> {
+  /* istanbul ignore next */
+  return mapEntriesAsync(tree, fn)
+}
+
+/**
+ * Lets you manipulate file paths.
+ *
+ * @param tree
+ * @param fn
+ */
+export function mapPaths(
+  tree: Tree,
+  fn: (path: string, file: File) => string,
+): Tree {
+  /* istanbul ignore next */
+  return mapKeys(tree, fn)
 }
 
 /**
