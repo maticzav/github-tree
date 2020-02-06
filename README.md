@@ -30,12 +30,14 @@ import { Octokit } from '@octokit/rest'
 import fs from 'fs'
 import { commit, utf8, base64 } from 'github-tree'
 
+const octokit = new Octokit()
+
 const tree = {
   'README.md': utf8(`# A cool README!`),
   'src/index.ts': base64(fs.readFileSync('/path.ts', { encoding: 'base64' })),
 }
 
-await commit({
+await commit(octokit, {
   owner: 'maticzav',
   repo: 'label-sync',
   message: 'Additions from our server',
