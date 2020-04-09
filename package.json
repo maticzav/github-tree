@@ -22,7 +22,7 @@
     "@types/node": "13.11.1",
     "codecov": "3.6.5",
     "husky": "4.2.4",
-    "jest": "25.2.7",
+    "jest": "25.3.0",
     "nock": "11.9.1",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
