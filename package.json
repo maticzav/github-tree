@@ -17,7 +17,7 @@
     "@octokit/rest": "^16.43.1"
   },
   "devDependencies": {
-    "@types/jest": "25.2.1",
+    "@types/jest": "25.2.2",
     "@types/nock": "11.1.0",
     "@types/node": "13.13.6",
     "codecov": "3.6.5",
