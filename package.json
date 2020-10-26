@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/jest": "25.2.3",
     "@types/nock": "11.1.0",
-    "@types/node": "13.13.28",
+    "@types/node": "13.13.29",
     "codecov": "3.8.0",
     "husky": "4.3.0",
     "jest": "25.5.4",
