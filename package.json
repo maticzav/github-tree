@@ -20,7 +20,7 @@
     "@types/jest": "25.2.3",
     "@types/nock": "11.1.0",
     "@types/node": "13.13.30",
-    "codecov": "3.8.0",
+    "codecov": "3.8.1",
     "husky": "4.3.0",
     "jest": "25.5.4",
     "nock": "11.9.1",
