@@ -29,7 +29,7 @@
     "rimraf": "3.0.2",
     "semantic-release": "17.3.8",
     "ts-jest": "25.5.1",
-    "typescript": "3.9.8"
+    "typescript": "3.9.9"
   },
   "license": "MIT"
 }
