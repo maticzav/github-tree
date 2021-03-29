@@ -21,7 +21,7 @@
     "@types/nock": "11.1.0",
     "@types/node": "13.13.48",
     "codecov": "3.8.1",
-    "husky": "4.3.8",
+    "husky": "6.0.0",
     "jest": "25.5.4",
     "nock": "11.9.1",
     "prettier": "1.19.1",
