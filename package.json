@@ -23,7 +23,7 @@
     "codecov": "3.8.1",
     "husky": "4.3.8",
     "jest": "25.5.4",
-    "nock": "11.9.1",
+    "nock": "13.5.5",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.2",
     "rimraf": "3.0.2",
